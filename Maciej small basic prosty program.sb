@@ -1,0 +1,8 @@
+TextWindow.WriteLine("Dodawanie dowolnych liczb")
+
+TextWindow.WriteLine("Podaj pierwsza  liczbe:")
+liczbajeden=TextWindow.ReadNumber()
+TextWindow.Write("Podaj druga  liczbe:")
+liczbadwa=TextWindow.ReadNumber()
+TextWindow.Write("Wynik:")
+TextWindow.WriteLine(liczbajeden+liczbadwa)
